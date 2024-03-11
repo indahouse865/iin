@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Open_Sans';
+    font-weight: 400;
+    src: url('./fonts/Open_Sans,Public_Sans/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Public_Sans_Large';
+    font-weight: 700;
+    src: url('./fonts/Open_Sans,Public_Sans/Public_Sans/PublicSans-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Public_Sans_Small';
+    font-weight: 400;
+    src: url('./fonts/Open_Sans,Public_Sans/Public_Sans/PublicSans-VariableFont_wdth,wght.ttf');
+}
+
+.card_holder {
+    display: flex;
+}
+
+.faculty_photo {
+    border-radius: 40px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.card {
+    width: 437px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 40px 24px;
+    text-align: center;
+    font-family: "Open_Sans";
+    display: block;
+    font-weight: 400;
+}
+
+.faculty_header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.faculty_name {
+    font-family: "Public_Sans_Large"; 
+    font-weight: 700;
+    border-bottom: none;
+}
+
+.faculty_curriculum_header {
+    font-family: "Public_Sans_Small";
+}

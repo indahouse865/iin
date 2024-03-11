@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="faculty_card.css">
+<div class="card_holder">
+    <div class="card faculty_card">
+        <div class="faculty_image_container">
+            <image src="media/sample_headshot.jpg" class="faculty_photo" onerror="this.src='media/placeholder.jpg'"/>
+        </div>
+        <div class="faculty_header">
+            <h2 class="faculty_name">Zach Bush, MD</h3>
+            <p class="faculty_credentials">Board certified Physician and Microbiome expert</p>
+        </div>
+        <div class="faculty_curriculum">
+            <h3 class="faculty_curriculum_header">Curriculum Topics</h4>
+            <p class="faculty_curriculum_description">Your body and gut microbiome</p>
+        </div>
+    </div>
+    <div class="card faculty_card">
+        <div class="faculty_image_container">
+            <image src="${faculty.headshot}" class="faculty_photo" onerror="this.src='media/placeholder.jpg'"/>
+        </div>
+        <div class="faculty_header">
+            <h2 class="faculty_name">${faculty.Name}</h3>
+            <p class="faculty_credentials">${faculty.credentials}</p>
+        </div>
+        <div class="faculty_curriculum">
+            <h3 class="faculty_curriculum_header">Curriculum Topics</h4>
+            <p class="faculty_curriculum_description">${faculty.topics}</p>
+        </div>
+    </div>
+    <div class="card faculty_card">
+        <div class="faculty_image_container">
+            <image src="${faculty.headshot}" class="faculty_photo" onerror="this.src='media/placeholder.jpg'"/>
+        </div>
+        <div class="faculty_header">
+            <h2 class="faculty_name">${faculty.Name}</h3>
+            <p class="faculty_credentials">${faculty.credentials}</p>
+        </div>
+        <div class="faculty_curriculum">
+            <h3 class="faculty_curriculum_header">Curriculum Topics</h4>
+            <p class="faculty_curriculum_description">${faculty.topics}</p>
+        </div>
+    </div>
+</div>
